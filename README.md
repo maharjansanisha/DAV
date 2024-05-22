@@ -1,10 +1,10 @@
 # Course Title: Data Analysis and Visualization (3 Cr.)
 
-Course Code: CACS455
+Course Code: **CACS455**
 
-Year/Semester: IV/VIII
+Year/Semester: **IV/VIII**
 
-Class Load: 5 Hrs./ Week (Theory: 3Hrs. Practical: 2Hrs.)
+Class Load: **5 Hrs./ Week (Theory: 3Hrs. Practical: 2Hrs.)**
 
 ## Course Description
 
