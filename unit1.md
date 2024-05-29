@@ -1,8 +1,12 @@
-## Introduction to Visualization
+# Introduction to Visualization
 
 Data analysis is the process of cleaning, processing and changing raw data and extracting relevant information from it. Its main purpose is to look for trends, grouping and sthes relationship between different types of data. Data visualization is the process of translating information into al context such as graph, charts, map etc. to make data eauer for human to understand and gin insight from it. The aim of data visualization is to make it eater ts identify patternds and outlier in data sets. Visualization represents analyzed data in form of pictorial form that helps to communicate results in simpler form. Data visualization eccentrics includes formats like bar challs, line graph, scatter plot, heat maps etc. Data visualization is a way to represent complex information in easier and more undertandable format. Effective data visualization are designed to be clear, accurate and visually appealing such that human brain can perceive and understand meaning in easier way.
 
+## Introduction of Visual Perception
+
 Visual perception refers to the way in which human perceive and interpret visual information represented by wil eccentrics likar charts, graph etc. it refers to how human's visual system process and interpret the surrounding such as color, shapes, shes to extract meaningful information and pattern from data. For effective data visualization, visual perception should take into consideration such that accurate and understandable visualization can be created
+
+## Visual Representation of Data
 
 A visual representation of data refers to use of graphical or visualization tool to convey patterns, information, relationship in dataset in easier and simpler form. The main goal of visual representation is to enforce effective communication and analysis of information. The choice of visual representation depends on the type of data, meaning we want to convey the audience familiarity with the data domain.
 Some common types of data visualtion are: 
@@ -18,6 +22,8 @@ Some common types of data visualtion are:
 5. Word clouds: use to display words from a text dataset with the varying size of text to indicate its frequency. It helps to visualize word frequencies and marks the important topic in text analysis.
 
 6. Time series visualization: shows how data change over time and includes charts to visualize chart.
+
+## Data Abstraction
 
 **Data Abstracion** is the process of summarizing and simplifying complex data to highlight required patterns, trend and insight. It is a crucial process to make data more manageable and understandable for data analysis and visualization pattern. It is used to reduce level of details from data set. Effective data abstraction helps to enhance the efficiency of data by focusing on most relevant aspect of data. Data abstraction is required in data analysis and visualization for:
 
