@@ -46,3 +46,63 @@ Includes operation like scalina, los transformation and normalization which can 
 v. Sampling:
 
 Sampling is used to select a representative subset of data for analysis. This helps to reduce computational and time requirements.
+
+## Visual Encoding
+**Visual encoding** refers to process of mapping data 
+
+i. Position: the position of axis in different visual eccentrics like scatter plot, bar graph etc. can represent two different variables.
+
+ii. Size: size of graphical elements like circle, bar can be used to represent quantitative values. Larger size typically indicates larger values.
+
+iii. Color: color can represent wide range of information and distinguish the information like red color indicates danger, green color indicates safe. Color should be used carefully to ensure accessibility and avoid misinterpretation.
+Ophard
+
+iii. Color: color can represent wide range of information and distinguish the information like red color indicates danger, green color indicates safe. Color should be used carefully to ensure accessibility and avoid misinterpretation.
+
+iv. Shape: different shape like circle, triangle, square etc. and be used to distinguish categories or represent data points.
+
+v. Texture: used to differentiate elements in a visualization when color or shape is limited
+
+vi. Opacity: the level of opacity can be used to show density or emphasize specific data points.
+
+vii. Connection: lines or links connecting elements that can represent relationships or connection between data points. Mostly used in network visualization.
+
+## Color in visualization
+
+Color is a tool to convey information, highlight patterns and engage viewers. In helps to give meaning on datasets. It should be used carefully as it can convey different meaning of data. Color plays the important role on ensuring correct visualization. Color is valuable tools which can enhance the clarity and impact of your data. Color are used to visualize following data:
+
+i. Categorical data. Color is used to differentiate groups in dataset. For example, color can be used to represent different product categories, population categories in bar graph, comparison of two or more data in scatter plot, distinguish countries on a map.
+
+ii. Sequential data: color can be used to represent ordered data such as values that increase or decrease progressively. For example, different color used in heatmaps to show similarities and dissimilarities between variables, color in line chart to distinguish two or more variable.
+
+iii. Diverging data: color can be used to point the data that are above or below a central value. It helps to show distinct midpoint such as comparing positive and negative changes.
+
+iv. Data density: color can be used to indicate density of data points in specific area. Lighter or dark shades may represent area of higher or lower concentration. 
+
+v. Time series: different color can be used in line chart or area chart to represent converging and diverting time fluctuation in dataset that can help user to track trend and fluctuation.
+
+vi. Emphasis and highlighting: color can be used to draw attention to specific data points or area of interest in data visualization. Highlight data can helps to understand main insights.
+
+vii. Error: color can be used to represent error interval, range on data points, Lighter color can indicate higher error and uncertainty whereas dark color can represent more emphasis on data points.
+
+### Following points should be taken into consideration while choosing appropriate color in visualization:
+
+• Choose a color palette that is appropriate for the data type and message of the visualization
+
+• Avoid using too many colors as this can lead to confusion and convey different information
+
+• Maintain color consistency across related visualization to make easier for comparison
+
+## Perceptual issues
+
+Perceptual issues are those that can lead to misinterpretation of data due to perception of human brain i.e., it refers to challenges and considerations related to how human perceive and interpret visual representation of data. These issues should be addressed as effective data visualization depends on how well it conveys information to the viewer. Addressing perceptual issues in data visualization requires a deep understanding of both the data being presented and the target audience. It is important to continually test and refine visualization to ensure that they effectively convey the information and minimize misinterpretation. Some of the common perceptual issues are:
+
+• Color choice: the human eye is more sensitive to some color that others so using such similar color and dissimilar color together can make difficult for user to understand the meaning of data. Using inappropriate color can lead to confusion of data for eg. using red color and green color together for danger symbol, choosing a color scale that is not perceptually uniform can also distort the representation of quantitative data.
+
+ • Size and position: using size too similar for different situation can make it dificult to see the difference in data values. Distortion in scale such as unequal axis, intervals exaggerated size in chart and graph dan misrepresent the data and lead to inaccurate interpretation. Placing the data points in unexpected or cluttered location can make the information difficult to understand.
+
+• Misleading visualization types: choosing wrong types of visual eccentrics like chart and graphs for data can result in misinterpretation. For example: using pie chart to show time series data, using heat map to represent one dimensional data etc.
+
+• Labeling and annotation: improper labeling and annotation can misinterpret the meaning of data and leave viewers unsure about the context.
+
+• Data density: too much information can overwhelm the user while too little can lead to miss the main points on decision making. So, how much data is to represent should
