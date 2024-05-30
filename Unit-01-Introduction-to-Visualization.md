@@ -1,4 +1,4 @@
-# Introduction to Visualization
+# Unit 01: Introduction to Visualization
 
 Data analysis is the process of cleaning, processing and changing raw data and extracting relevant information from it. Its main purpose is to look for trends, grouping and sthes relationship between different types of data. Data visualization is the process of translating information into al context such as graph, charts, map etc. to make data eauer for human to understand and gin insight from it. The aim of data visualization is to make it eater ts identify patternds and outlier in data sets. Visualization represents analyzed data in form of pictorial form that helps to communicate results in simpler form. Data visualization eccentrics includes formats like bar challs, line graph, scatter plot, heat maps etc. Data visualization is a way to represent complex information in easier and more undertandable format. Effective data visualization are designed to be clear, accurate and visually appealing such that human brain can perceive and understand meaning in easier way.
 

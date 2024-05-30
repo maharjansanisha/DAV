@@ -18,10 +18,10 @@ Upon completion of this course, students should be able to 1. Explain the concep
 
 ### Unit 1: Introduction to visualization 6 Hrs
 
-- [Introduction of visual perception](./unit1.md#introduction-of-visual-perception)
-- [Visual representation of data](./unit1.md#visual-representation-of-data)
-- [Data Abstraction](./unit1.md#data-abstraction)
-- [Visual Encodings, Use of Color, Perceptual Issues, Information overloads.](unit1.md#color-theory)
+- [Introduction of visual perception](./Unit-01-Introduction-to-Visualization.md#introduction-of-visual-perception)
+- [Visual representation of data](./Unit-01-Introduction-to-Visualization.md#visual-representation-of-data)
+- [Data Abstraction](./Unit-01-Introduction-to-Visualization.md#data-abstraction)
+- Visual Encodings, Use of Color, Perceptual Issues, Information overloads.
 
 ### Unit 2: Creating visual representations 7 Hrs
 
