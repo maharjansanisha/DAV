@@ -18,8 +18,8 @@ Upon completion of this course, students should be able to 1. Explain the concep
 
 ### Unit 1: Introduction to visualization 6 Hrs
 
-- [Introduction of visual perception](./Unit-01-Introduction-to-Visualization.md#introduction-of-visual-perception)
-- [Visual representation of data](./Unit-01-Introduction-to-Visualization.md#visual-representation-of-data)
+- [Introduction of Visual Perception](./Unit-01-Introduction-to-Visualization.md#introduction-of-visual-perception)
+- [Visual Representation of Data](./Unit-01-Introduction-to-Visualization.md#visual-representation-of-data)
 - [Data Abstraction](./Unit-01-Introduction-to-Visualization.md#data-abstraction)
 - [Visual Encodings](./Unit-01-Introduction-to-Visualization.md#visual-encoding)
 - Use of Color,
@@ -28,7 +28,10 @@ Upon completion of this course, students should be able to 1. Explain the concep
 
 ### Unit 2: Creating visual representations 7 Hrs
 
-- Visualization reference model, Visual mapping, Visual analytics, Design of Visualization applications.
+- [Visualization Reference Model](./Unit-02-Creating-Visual-Representation.md#visualization-reference-model)
+- [Visual Mapping](./Unit-02-Creating-Visual-Representation.md#visual-mapping)
+- [Visual Analytics](./Unit-02-Creating-Visual-Representation.md#visual-analytics)
+- [Design of Visualization Applications](./Unit-02-Creating-Visual-Representation.md#design-of-visualization-applications)
 
 ### Unit 3: Non spatial data visualization 15 Hrs
 
