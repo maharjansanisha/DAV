@@ -49,4 +49,24 @@ Some of the examples of visual mappings are bar chars that uses bars to represen
 
 ## Visual Analytics
 
+### Importance of Visual Alanlytics
+
+- Enhanced data understanding
+- Effective communication
+- Decision Making
+- Real time monitoring
+- Pattern recognition
+
 ## Design of Visualization Applications
+
+- Define objectives and user goals.
+- Understand audience
+- Select proper visualisation
+- Plan data preperations
+- Visual Consistency
+- Testing and Iterations
+- Continuous maintainance
+
+- Use a consistent visual style throughout the application which will help to understand the data and to make sense of visualisation.
+- User clear and cocise labels for the data
+- User a limited number of visual elements and visulisation
