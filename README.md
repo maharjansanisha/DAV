@@ -35,7 +35,10 @@ Upon completion of this course, students should be able to 1. Explain the concep
 
 ### Unit 3: Non spatial data visualization 15 Hrs
 
-- Visualization of one, two and multi-dimensional data, Tabular data, quantitative values (scatter plot), Separate, Order, and Align (Bar, staked Bar, dots and line charts), Tree data, Displaying Hierarchical Structures, graph data, rules for graph drawing and labeling, text and document data, levels of text representation, visualizations of a single text document, word cloud, flow data.
+- [Visualization of One, Two and Multi-Dimensional Data](./Unit-03-Non-Spatial-Data-Visualization.md#visualization-of-one-two-and-multi-dimensional-data)
+- [Tabular Data](./Unit-03-Non-Spatial-Data-Visualization.md#tabular-data)
+- [Quantitative Values (Scatter Plot)](./Unit-03-Non-Spatial-Data-Visualization.md#scatter-plot)
+- Separate, Order, and Align (Bar, staked Bar, dots and line charts), Tree data, Displaying Hierarchical Structures, graph data, rules for graph drawing and labeling, text and document data, levels of text representation, visualizations of a single text document, word cloud, flow data.
 
 - Time series data, characteristics of time data, visualization time series data, mapping of time
 
