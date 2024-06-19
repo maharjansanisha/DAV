@@ -49,23 +49,43 @@ Some of the examples of visual mappings are bar chars that uses bars to represen
 
 ## Visual Analytics
 
+It is an approach to data analysis that combines interactive data visualization with advance analytical techniques which aims to helps users gain insight from complex data by using visualization, statistical and human cognition. It combines data visualization, data mining and interactive techniques to helps users explore and understand large and complex datasets. It is a tool for gaining effective insights from data that is difficult or impossible to gain from traditional methods. Therefore, visual analytics help users to explore, interact with data an to explore relationships and patterns. Visual analytics is widely used in various domains including business intelligence, healthcare, finance and scientific research etc. Some of the tools used for visual analytics are power bi, tableau, ggplot, matplotlib etc. Following are the advantage of visual analytics in data visualization:
+
+- Help user to understand complex data more easily
+- Help user to identify patterns and trends that are difficult to analyze from spreadsheet or table
+- Can be used to share data with others and to collaborate on analysis
+- Helps to drill down on specific areas of interest
+
+**Visual analytics involves several key components and principles:**
+
+1. Interactive visualizations: includes filter, zoom, drill down and manipulate visual representations to uncover patterns, trends and outliers.
+2. Data integration: visual analytics involves integration of data from multiple sources and formats ie. includes structured data from databases, unstructured data from text sources and real time data which enable more comprehensive analysis.
+3. Visual data exploration: includes charts, graphs, maps and dashboard to visually explore complex data which helps users to understand and interpret such complex data and their relationship. It includes bar chart, line chart, scatter plots and geographic maps.
+4. Data transformation: visual analytics tools provide data transformation capabilities, including data cleaning, transformation capabilities, data cleaning to prepare data for analysis.
+5. Data security and privacy: for the sensitive data, visual analytics platforms often incorporate security and privacy features to ensure data protection and compliance with regulation.
+6. Customization: using visual analytics tools users can customize the visualizations to suit their specific needs which may includes adjusting color, fonts and different layouts
+
 ### Importance of Visual Alanlytics
 
-- Enhanced data understanding
-- Effective communication
-- Decision Making
-- Real time monitoring
-- Pattern recognition
+- **Enhanced data understanding**: Visual analytics involves in representing complex data in visual form that allows uses to see patterns, trend and outlies which may not be seen in raw data or text- based reports.
+- **Effective communication**: Visualization conveys information quickly and efficiently which enable clear and concise communication of data finding to users. Visual analytics helps to bridge the gap between data experts and non-experts.
+- **Decision Making**: Visual analytics empowers decision makers to base their choices on data driven insights rather that intuition or evidence which leads to more informed and strategic decision.
+- **Real time monitoring**: Visual analytics supports different tool for time series data which enables organization to respond quickly to changing conditions and make timely intervention or adjustment
+- **Pattern recognition**: Our visual perception is more suited for recognizing different patterns and anomalies. Visual analytics helps to simplify this character by allowing users to identify irregularities, trends and outliers more effectively than with traditional data analysis methods.
 
 ## Design of Visualization Applications
 
-- Define objectives and user goals.
+It involves planning and consideration of various aspects likes user needs, data complexity, interactivity and usability. Throughout the design and development process, it is necessary to consider involving users and stakeholder for feedback and validation. Collaboration and user centered design are essential for creating a successfully visualization application that meets both functional and user experience requirements. Following are the key design principles:
+
+- Define objectives and users' goals.
 - Understand audience
-- Select proper visualisation
-- Plan data preperations
-- Visual Consistency
-- Testing and Iterations
-- Continuous maintainance
+- Select proper visualisation: Choose right types of visualization eccentrics for data like bar chart, line chart, scatter plot based on nature of datarand user requirements.
+- Plan data preperations: Ensure data is cleaned, structured and stored in a way that is suitable for visualization. Use data transformation and aggregation before visualizing data
+- Visual Consistency: Maintain visual consistence across application ie. use appropriate and uniform color scheme, typography and layout.
+- Testing and Iterations: Conduct testing with real users to identify points and areas for improvement and iteratively refine the design based on user feedback.
+- Continuous maintainance: Plan for updates to keep application secure and responsive to user needs.
+
+**Following factors should be consider while designing visualization application:**
 
 - Use a consistent visual style throughout the application which will help to understand the data and to make sense of visualisation.
 - User clear and cocise labels for the data
