@@ -54,3 +54,136 @@ It is a data visualization technique used to show the relationship between two c
 - Use appropriate labels and title to describe variables
 - Use legend to describe each points, shape of points and colors
 - Add annotation to highlight important features of the visualization
+
+## Histogram
+
+It shows the distribution of a datasets i.e. display the frequency or count of data points falling
+into specific intervals known as bins. It is useful for identifying patterns, understanding the
+spread and shape of data. It is like a bar graph in which the bar represent the number of data
+points that fall within the certain range of values and the height of each bar represent the
+frequency of the data points in that range. To create histogram, number of bins should be
+determined first (bins are the range based on which count to be made like within rang of 10,
+20, 5 etc.), appropriate labels and titles, consistent style, add legends and proper annotation.
+Histogram works with only one variables.
+
+**Plotting histogram to show distribution of sepal width of all species:**
+
+```
+plt.hist(flowerData.sepal_width,edgecolor='black',color='green',bins=5);
+plt.xlabel("sepal width");
+plt.ylabel("range");
+plt.title("distribution of sepal width for all species")
+```
+
+## Bar chart
+
+It is used to represent categorical or discrete data and display data using rectangular bars or
+column. The height of each bar represents the frequency associated with a specific category.
+Bar charts are specially used for comparing the values of different categories over time,
+comparing values of a category across different groups. To create effective bar chars first
+categories of data should be choosen, appropriate label and title should be used to describe
+each coordinate, proper legend should be used to convey meaning of color, shapes and sizes
+of the bars.
+
+**Creating bar chart using seaborn library**
+
+```
+sns.barplot(data=flowerData,x="species",y="petal_width")
+```
+
+## Heat Map
+
+Heat map uses a color to represent the values of data. It is used to visualize two-dimensional
+data. It contains matrix where cells are colored according to the values of the data. The
+warmer colors represent higher values and the cooler colors represents lower values. Heat
+map represent data in a tabular format where individual values are depicted as colors which
+is useful for finding out patterns, trends and relationship in two-dimensional data. It shows
+correlation between variables. To create effective heat maps, first proper colors should be
+choses, add proper labels and titles, add proper legend and annotation
+
+```
+sns.heatmap(flowerData.corr(), cmap=’coolwarm’)
+plt.xlabel(‘x-axis labels’)
+plt.ylabel(‘y-axis labels’)
+plt.title(‘heatmap example’)
+
+```
+
+## Box Plot
+
+A box plot or box and whisker plot is used to show the distribution of data in a five-number
+summary: the minimum, first quartile (Q1), median, third quartile (Q3) and a maximum. It
+represents central tendency, spread and the presence of outliers. Box represent the
+interquartile range which spans the 50% of the data. It contains a horizontal line that shows
+the median of data and the top and bottom of edges of box represent the first quartile and
+third quartile of the data. Whisker extends from the box to minimum and maximum values
+within a defined range. Data points beyond whiskers are considered as outliers. Outliers are
+data points that falls outside of whiskers and are represented as individual point or dots.
+
+```
+sns.boxplot(data=flowerData,x='species',y='sepal_width')
+```
+
+## Tree Data Visualisation
+
+Tree data is a type of data that is organized hierarchically with each data point having one or more
+parent data points. Tree data can be used to represent a variety of real-world structure such as
+organizations, product hierarchies and family trees. The data points are organized in a tree like
+structure with each data point having one or more child data points. The root is the topmost data
+point in the tree and it has no parent data points. The child data points are its immediate
+descendants. Visualizing tree data can help reveal patterns, relationship and structures within the
+data. Some of the visualizing technique used for displaying hierarchical data are tree maps,
+sunburst chart etc. key components of a tree data structure are:
+
+Root nodes: the topmost node which serves as the starting point for traversing the
+tree and it has no parent
+
+- Child node: a node that is directly connected to another node and is one level below it in the hierarchy. A node can have multiple child nodes
+- Parent node: a node that has one or more child nodes. It is one level above its child nodes
+- Sibling: nodes that share same parent node are siblings
+- Leaf node: a node that has no child nodes i.e. it is a terminal node at the end of branch.
+
+The tree data structure are used to represent hierarchical relationship and organizational
+structure.
+
+Visual Heirarchical Data:
+
+1. **Treemaps:** it uses nested rectangles to represent the hierarchical structure of tree
+   data. The size of each rectangle represents the value of the data point it represents. It
+   is done in python my using plotly library. Following program shows an example on
+   treemaps.
+
+**Step 1**: Import plotly.express as px  
+**Step 2**: Create data set or import dataset  
+**Step 3**: Use plotly.treemap(dataset, path, values,color)
+
+Here dataset is the actual data for which tree map is to be created, path indicates list
+of columns name or column of rectangular data frame defining hierarchy of sector
+from root to leaves. Values is either a name of a column or pandas’ series and such
+field is used to set values associated to sector. Color are used to assign appropriate color pallet
+
+**Treemap by creating own series of data**
+
+let’s create two series (array) using pandas: first one is name of people and second
+one is name of parent for corresponding name of people. Import plotly.express as pl
+
+```
+res=pl.treemap(names=["Ram","Sam", "Hari", "Gita", "Sita", "Ramila" "Pawan",
+"Riya", "Sarmila"], parents=["", "Ram", "Ram", "Hari", "Hari", "Ram", "Ram", "Pawan",
+"Ram"])  res.update_traces(root_color='lightgrey')  res.update_layout(margin = dict(t=50, l=25, r=25,
+b=25)) res.show()
+```
+
+**Treemap for tip data sets**
+
+```
+import plotly.express as px
+import seaborn as sns
+#load dataset
+df=sns.load_dataset('tips')
+#plotting treemap
+fig=px.treemap(df,path=[px.Constant("all"),'day','time','sex'],values='total_bill')
+fig.update_traces(root_color="lightgrey") # to put color in root
+fig.update_layout(margin = dict(t=50, l=25, r=25, b=25))
+fig.show()
+```
