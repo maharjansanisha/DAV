@@ -187,3 +187,284 @@ fig.update_traces(root_color="lightgrey") # to put color in root
 fig.update_layout(margin = dict(t=50, l=25, r=25, b=25))
 fig.show()
 ```
+
+## Text and Document Data
+
+Text and document data are a type of data that consists of text and other unstructured data which are difficult to visualize. Text data refer to textual information and documents that can be in various formats such as plain text, pdf, word document etc. Text visualization involves techniques for representing and visualizing textual information and document in a way that helps users to understand and gain insight from data. Text data can be from various sources such as articles, books, customer review etc. some visualization technique used for text visualization are word clouds (display the most frequently occurring words in a text. Used to identify frequently mentioned terms in documents), bar chart and histogram, network diagram, heatmaps, time series plot (shows specific text segment by highlighting and annotating document or articles). Some characteristics of text data are unstructured, diversity, volume, variety etc. Here we consider visualizing the text within a document, and collections of documents which are likely related (corpus).
+
+Difficulty in analysis includes the loose structure, varied vocabulary, and optional metadata such as author(s), date, modification dates, comments, keywords, catalog codes, citations.
+
+Levels of text to be represented:
+
+**Lexical level** -- Simple grouping of characters into "tokens" which are typically words, but word stems, phrases, word n-grams and character n-grams may be beneficial
+**Syntactic level** --Parsing purpose of token, grammatical category, tense, plurality, in the context of the phrase, sentence and paragraph
+**Semantic level** -- Extract meaning of the syntactic structure with the tokens using fuller analysis of the context.
+
+Text visualization is a visual way of presenting information—word clouds, graphs, maps, timelines, networks and more, can all be used to visualize text data. Doing so provides a brief understanding of the most important keywords, and sums up and communicates trends and frameworks within a specific text.
+
+Text visualization is the technique of using graphs, charts, or word clouds to showcase written data in a visual manner. This provides quick insight into the most relevant keywords in a text, summarizes content, and reveals trends and patterns across documents.
+
+Companies use text visualization to:
+
+- **Summarize large amounts of text**: Automatically highlight key terms in a series of texts, and categorize text by topic, sentiment, and more, saving hours of reading time. How long would it take you to read 500 online reviews? With a word cloud or data visualization dashboard, you can understand text data at a glance.
+- **Make text data easy to understand**: The human brain loves visual data. In fact, we are able to process images much faster than text. Text visualization is an effective way of simplifying complex data and communicating ideas and concepts to team managers.
+- **Find insights in qualitative data**: Customer feedback holds a trove of insights. Through text visualization, you can get an overview of the features, products, and topics that are most important to your customers. Learn what their pain points are and what you’re doing right.
+- **Discover hidden trends and patterns**: Analyze and visualize insights over time to detect fluctuations, and quickly find the root cause.
+
+Text is maybe the most underrated element in any data visualization. There’s a lot of text in any chart or map — titles, descriptions, notes, sources, bylines, logos, annotations, labels, color keys, tooltips, axis labels — but often, it’s an afterthought in the design process. This article explains how to use text to make your visualizations easier to read and nicer to look at.
+
+**Show information where readers need it**
+
+1. Label directly
+2. Repeat the units your data is measured in
+3. Remind people what they’re looking at in tooltips
+4. Move the axis ticks where they’re needed
+5. Emphasize and explain with annotations
+
+**Design for readability**
+
+1. Use a font that’s easy to read
+2. Lead the eye with font sizes, styles, and colors
+3. Limit the number of font sizes in your visualization
+4. Don’t center-align your text
+5. Don’t make your readers turn their heads
+6. Use a text outline
+
+**Phrase for readability**
+
+1. Use straightforward phrasings
+2. Be conversational first and precise later
+3. Choose a suitable number format
+
+**Why Do We Need Text Visualization?**
+
+Text Visualization can help reveal your audience’s thoughts You can use the chart to understand your audience’s feelings about a topic/situation. Besides, you can leverage the chart to summarize data-driven views. The chart can help you summarize the market feedback using first-hand data.
+
+**Quick and informative**
+
+You can easily get live feedback from your audience in real-time
+
+**Exciting and emotional**
+
+The chart can help audiences feel part of your data story.
+
+**Engaging**
+
+The Word cloud is incredibly engaging and visually appealing to many audiences. The chart can be an icebreaker or an entry point for a topic of discussion.
+
+**Word Clouds are visual**
+
+Our brains process visual content 60,000 times faster than texts and numbers. This provides a logical rationale for using the Word Cloud generator to analyze your textual data for actionable insights.
+
+**Creating a text visualization is straightforward**
+
+Generating text visualization examples is easy to follow. Yes, you read that right. Besides, the chart can provide you with insights into large data sets.
+
+**Text Data Visualization Examples**
+
+**Word Cloud**
+
+Word Clouds are charts that display insights into qualitative data frequency.
+
+The visualization design gives greater prominence to words that appear more frequently in a source text. The larger the word, the higher its frequency. You can use the chart (one of the text visualization examples) to perform exploratory textual analysis by identifying words that frequently appear in a set of interviews, documents, or other text.
+
+**Tag Clouds**
+
+Tag clouds or text clouds are ideal if your goal is to pull out the most pertinent parts of textual data, from blog posts to databases. You can use the tag cloud as a text visualization tool to compare and contrast two different pieces of text for similarities and differences.
+
+**Slope Chart**
+Slope Charts show transitions, changes over time, absolute values, and even rankings. Besides, they’re also called Slope Graphs.
+
+Slope Graphs (one of the text visualization examples) can be useful when you have two time periods or points of comparison and want to show relative increases and decreases quickly across various categories between two data points.
+
+**Sankey Chart**
+A Sankey Diagram visualizes “a flow” from one set of values to the next. The two items being connected are referred to as “nodes.” The connections are labeled as “links”.
+
+**Text Visualization is Useful for:**
+Condensing a lot of content. Cut down on time spent reading by emphasizing central phrases across multiple texts, grouping content by topic, sentiment and more. Could you imagine having to get through hundreds of client reviews? With a word cloud or bar chart, you can visualize data and instantly make sense of things.
+
+**Simplifying text data**: Our brains are wired to enjoy and make sense of visual data and it’s proven that we sort through images quicker than we do with the written word. If you’re looking to simplify complex data and transmit those concepts to team managers, then text visualization is the way to go.
+
+**Determining insights in qualitative data**: Customer feedback is jam-packed with practical insights. You’ll get an effective outline of the products, features and subjects that matter most to your clientele and the opportunity to figure out not only their pain points but where you’re succeeding with them.
+
+**Discover hidden trends**: Use text analysis and gradually visualize insights in order to spot easily any inconsistencies and figure out the leading causes.
+
+**Text Mining**
+
+The fast growth spurt of social media platforms and availability of the internet means that year after year, a massive quantity of unstructured text data is produced. And that’s what text analysis is all about—acquiring insights or assembling this raw data with a view to propelling research, projects, business and other such activities.
+
+A fresh area of research has emerged in the use of machinery to investigate texts—text mining. This is in contrast to the process of data mining used in computer science.
+
+Text mining aims to uncover statistical patterns as it uses machines to analyze data points in a body of content with a large volume of text. Through this procedure, various patterns within a big data system begin to emerge.
+
+Text mining benefits from text visualization tools as it’s so easy to read for both machine and human alike. The most vital bits of information are communicated through easy-to-read visual representations such as a bar chart, word cloud, graph, map, timeline or network.
+
+**Why Text Visualizations are Necessary**
+
+**Makes Text Data Easy to Grasp**
+
+Did you know that your brain sorts through visual data 60 000 times faster than words or numbers? Text visualizations make complex data clearer and powerfully transmit ideas to team managers.
+
+**Communicates What’s on Your Audience’s Mind**
+A chart can help you figure out how your audience feels about a certain subject or issue. This chart can also be leveraged to condense data-driven views. First-hand data can be used to summarize any market feedback.
+
+**Condenses Big Volumes of Text**
+Reduce the time you’d spend reading big volumes of text. Instantly emphasize the main terms in a string of texts, categorize content by subject, sentiment or other themes.
+
+A quick scan of a text data visualization or dashboard will update you on all the vital info you want and need to know.
+
+**It Captivates**
+If you take a look at a word cloud, you’ll see that it is both eye-catching and informative. A well-designed chart can be used to start a conversation on an array of interesting topics.
+
+**It is Simple and Direct**
+Creating and reading text visualizations are actually pretty straightforward. Whether it’s a bar chart or a graph, you’ll gain some actionable insights into sizable data sets.
+
+**Word Cloud**
+A word cloud is a text visualization technique that focuses on the frequency of words and correlates the size and opacity of a word to its frequency within a body of text. The output is usually an image that depicts different words in different sizes and opacities relative to the word frequency.
+
+An application of this form of visualization is document summarization, where you can process a body of text within a document and, based on the most prominent words, get a general summary of what the document is all about. This can also be applied in job applications where if the job description is analyzed, the largest words to appear are most likely the most important skills for the job.
+
+**Visualizing text data using word cloud:**
+
+Use to visualize the frequency of words in a text groups with word size proportional to frequency. To use wordcloud, first download the package using pip install wordcloud. After this import the library using from wordcloud import WordCloud. Further process are shown below
+
+Importing library from wordcloud import WordCloud
+
+```python
+import matplotlib.pyplot as plt
+#text to be visualized
+text = "hello BCA 8th semester. you are studying data visualization and best of luck for your board exam. you exam is on sunday and center is in padmakanya. if you fail in exam you get astrick in marksheet. Best of Luck "
+plotting word cloud
+wc = WordCloud(width=800, height=400, background_color="white").generate(text)
+plt.figure(figsize=(10, 5))
+plt.imshow(wc, interpolation="bilinear")
+plt.axis("off")
+plt.show()
+```
+
+In above code: wc = WordCloud(width=800, height=400, background_color="white").generate(text)
+
+WordCloud function is used to generate wordcloud and text to be represented is calculated by generate() method.  
+Visualizing text data using bar graph:
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from collections import Counter
+
+text = "hello BCA 8th semester. you are studying data visualization and best of luck for your board exam. you exam is on sunday and center is in prime. if you fail in exam you get astrick in marksheet. Best of Luck, best best best best bestbest best best best best"
+
+word_list = text.split()
+word_freq = Counter(word_list)
+sns.set_style("whitegrid")
+plt.figure(figsize=(10, 5))
+sns.barplot(x=list(word_freq.keys()), y=list(word_freq.values()))
+plt.xticks(rotation=45)
+plt.xlabel("Words")
+plt.ylabel("Frequency")
+plt.title("Word Frequencies")
+plt.show()
+```
+
+**Separate, Order and Align**
+In information visualization the most effective channel for encoding information is position. The usage of this channel depends of the type of attribute encoded. Quantitative variables should express its value across a continues scale, but for categorical ones you should **separate, order and align**.
+
+**Separate:**
+
+- To separate means to divide or set apart different elements or entities.
+- It involves creating distinct boundaries or divisions between items or groups.
+- The purpose of separation is to distinguish or isolate individual components, ensuring that they are distinct and independent from one another.
+
+**Separate (Data Visualization):**
+
+- In data visualization, separation involves visually distinguishing or isolating different data elements or categories.
+- It entails creating clear boundaries or visual cues that set apart various data points, groups, or variables.
+- By separating data, you can enhance the viewer's ability to differentiate and understand the distinct components within a visual representation, such as charts, graphs, or diagrams.
+
+**Example**
+
+- Suppose you have a bar chart representing sales data for different product categories. To separate the data, you can use distinctive colors for each category. For instance, you could assign the color blue to electronics, red to clothing, and green to furniture. This visual separation helps viewers easily identify and differentiate the sales figures for each product category.
+
+**Order:**
+
+- Order refers to arranging or organizing things in a particular sequence or pattern.
+- It involves placing items or elements in a structured manner according to a specific
+  criterion or system.
+- Ordering can be done based on various factors, such as numerical, alphabetical,
+  chronological, or hierarchical order.
+- It helps to bring clarity, efficiency, and logic to a set of elements.
+
+**Order (Data Visualization):**
+
+- Ordering data in the context of data visualization means arranging the data points or
+  categories in a structured manner to convey meaning or facilitate comprehension.
+- Depending on the nature of the data, you can order it based on numerical values,
+  alphabetical sequences, time periods, or hierarchical relationships.
+- By ordering the data, you bring a logical and coherent structure to the visualization,
+  allowing viewers to identify patterns, trends, or comparisons more easily.
+
+**Example**
+
+- Consider a line graph depicting stock market prices over time.
+- To order the data, you would typically arrange the time series on the x-axis in chronological order, with the oldest date on the left and the most recent date on the right.
+- This allows viewers to observe the progression of stock prices over time and identify any patterns or trends, such as upward or downward movements.
+
+**Align**
+
+- Alignment means adjusting or positioning things in such a way that they are in proper or accurate coordination or arrangement with one another.
+- It involves making sure that different elements are correctly placed or matched relative to a reference point or a common set of guidelines.
+- Alignment ensures that components are in harmony, agreement, or conformity with each other, facilitating coordination and coherence.
+
+**Align (Data Visualization):**
+
+- Alignment in data visualization refers to positioning and coordinating visual elements to create a visually harmonious and informative display.
+- It involves aligning data points, labels, axes, or other graphical components with precision.
+- Proper alignment ensures that the visual elements are visually cohesive, making it easier for viewers to interpret and make accurate comparisons or connections within the visualization.
+- Alignment can also apply to text, spacing, and grid lines, promoting readability and clarity in the visualization.
+
+**Example**
+
+- Imagine a scatter plot representing the relationship between a person's age and their income.
+- To align the data points, you would ensure that the x-axis represents age, starting from the lowest age value on the left and increasing towards the right.
+- The y-axis would represent income, starting from the lowest income value at the bottom and increasing as you move upward.
+- Aligning the axes in this way ensures that the data points align with the appropriate age and income values, enabling viewers to accurately interpret the relationship between the two variables.
+
+**Summary:**
+
+- **Separate**: Visually distinguish or isolate different data elements or categories, creating clear boundaries or cues to enhance differentiation.
+- **Order**: Arrange data points or categories in a structured manner based on a specific criterion, facilitating comprehension and pattern identification.
+- **Align**: Position and coordinate visual elements with precision, creating a visually cohesive and informative display that promotes readability and interpretation.
+
+**Bar Chart**
+
+- Use the bar chart to compare many items. The bar chart typically presents categories or items displayed along the Y axis, with their values displayed on the X axis. You can also break up the values by another category or group.
+
+**What can I use bar and column charts for?**
+
+Use bar and column charts to summarize and compare values in a data category, and provide a snapshot of your data at specified points in time (or other dimensions).
+
+Although bar and column charts are similar in their appearance and functions, their respective orientations mean they are better suited to different types of analysis:
+
+- Bar charts use a horizontal display, which provides more room for long, complex or numerous labels on the Y-axis. The labels also go from left to right, making labels on bar charts easy to read. In bar charts, categories are usually displayed along the Y- axis, so they're commonly used for analyses where time is not a factor.
+- In column charts, time is usually displayed along the X-axis, with the unit of measurement on the Y-axis. As this left to right direction is associated with a chronological sequence, column charts are ideal for highlighting changes over time.
+
+You can also use bar and column charts to rank items in a data series. To do this, you must sort your data (by saving a view in your module, or designing a custom view) before creating a chart, so that the ranking is reflected in it.
+
+Negative values are represented clearly in bar and column charts, as any negative values are plotted in the opposite direction to positive values. However, relatively large negative or positive values reduce the amount of space available on a chart, which can make it hard to differentiate between similar values.
+
+Use a bar or column chart to answer:
+
+- How does A differ from B?
+- Which salesperson sold the most product?
+- What was the average growth over the last X years?
+- What is the composition of our website traffic?
+
+**Considerations**
+
+A bar or column chart may not be the best option when:
+
+- your data categories have long labels.
+- the height or width size of a chart card has been altered. This can change the scale of
+  your unit of measurement, which can be misleading as this diminishes or emphasizes
+  differences in value in your bar or column chart.
