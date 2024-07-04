@@ -26,25 +26,25 @@ Some common types of data visualization are:
 
 ## Data Abstraction
 
-**Data Abstracion** is the process of summarizing and simplifying complex data to highlight required patterns, trend and insight. It is a crucial process to make data more manageable and understandable for data analysis and visualization pattern. It is used to reduce level of details from data set. Effective data abstraction helps to enhance the efficiency of data by focusing on most relevant aspect of data. Data abstraction is required in data analysis and visualization for:
+**Data Abstraction** is the process of summarizing and simplifying complex data to highlight required patterns, trend and insight. It is a crucial process to make data more manageable and understandable for data analysis and visualization pattern. It is used to reduce level of details from data set. Effective data abstraction helps to enhance the efficiency of data by focusing on most relevant aspect of data. Data abstraction is required in data analysis and visualization for:
 
-i. Reducing complexity:
+**i. Reducing complexity:**
 
-Complex data sets contain null values, noise and irrelevant details. So data abstraction helps to filter out noise, null values and focus on the important aspect olesta. Simplification in data makes easier to identify pattern and relationship between variables.
+Complex data sets contain null values, noise and irrelevant details. So data abstraction helps to filter out noise, null values and focus on the important aspect of data. Simplification in data makes easier to identify pattern and relationship between variables.
 
-ii. Angregation:
+**ii. Aggregation:**
 
-Involves combining individual data points into group to calculate summary astics of each group. For example: daily sales figure, population trends, disease trend etc. Aggregation helps in understanding overall trends and patterns in each cats points.
+Involves combining individual data points into group to calculate summary statistics of each group. For example: daily sales figure, population trends, disease trend etc. Aggregation helps in understanding overall trends and patterns in each data points.
 
-iii. Summarization:
+**iii. Summarization:**
 
-Involves creating lot of information to capture essence of the data sets. It includes calation measures like mean, median, mode, range and percentile that can help to provide quick overview of the data distribution.
+Involves creating lot of information to capture essence of the data sets. It includes calculation measures like mean, median, mode, range and percentile that can help to provide quick overview of the data distribution.
 
-iv. Data transformation:
+**iv. Data Transformation:**
 
-Includes operation like scalina, los transformation and normalization which can improve the distribution and relationships within the data to make it more suitable for data analysis and visualisation.
+Includes operation like scaling, log transformation and normalization which can improve the distribution and relationships within the data to make it more suitable for data analysis and visualization.
 
-v. Sampling:
+**v. Sampling:**
 
 Sampling is used to select a representative subset of data for analysis. This helps to reduce computational and time requirements.
 
