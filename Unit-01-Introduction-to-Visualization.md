@@ -1,6 +1,6 @@
 # Unit 01: Introduction to Visualization
 
-Data analysis is the process of cleaning, processing and changing raw data and extracting relevant information from it. Its main purpose is to look for trends, grouping and sthes relationship between different types of data. Data visualization is the process of translating information into al context such as graph, charts, map etc. to make data eauer for human to understand and gin insight from it. The aim of data visualization is to make it eater ts identify patternds and outlier in data sets. Visualization represents analyzed data in form of pictorial form that helps to communicate results in simpler form. Data visualization eccentrics includes formats like bar challs, line graph, scatter plot, heat maps etc. Data visualization is a way to represent complex information in easier and more undertandable format. Effective data visualization are designed to be clear, accurate and visually appealing such that human brain can perceive and understand meaning in easier way.
+Data analysis is the process of cleaning, processing and changing raw data and extracting relevant information from it. Its main purpose is to look for trends, grouping and other relationship between different types of data. Data visualization is the process of translating information into visual context such as graph, charts, map etc. to make data easier for human to understand and gain insight from it. The aim of data visualization is to make it easier to identify patterns, trends and outlier in data sets. Visualization represents analyzed data in form of pictorial form that helps to communicate results in simpler form. Data visualization eccentrics includes formats like bar charts, line graph, scatter plot, heat maps etc. Data visualization is a way to represent complex information in easier and more understandable format. Effective data visualization are designed to be clear, accurate and visually appealing such that human brain can perceive and understand meaning in easier way.
 
 ## Introduction of Visual Perception
 
@@ -9,7 +9,7 @@ Visual perception refers to the way in which human perceive and interpret visual
 ## Visual Representation of Data
 
 A visual representation of data refers to use of graphical or visualization tool to convey patterns, information, relationship in dataset in easier and simpler form. The main goal of visual representation is to enforce effective communication and analysis of information. The choice of visual representation depends on the type of data, meaning we want to convey the audience familiarity with the data domain.
-Some common types of data visualtion are: 
+Some common types of data visualtion are:
 
 1. Charts and graphs: includes bar chart, line charts, scatter plot, pie chart that are used to display quantitative data to reveal trends and comparison.
 
@@ -75,7 +75,7 @@ ii. **Sequential Data:** Color can be used to represent ordered data such as val
 
 iii. **Diverging Data:** Color can be used to point the data that are above or below a central value. It helps to show distinct midpoint such as comparing positive and negative changes.
 
-iv. **Data Density:** Color can be used to indicate density of data points in specific area. Lighter or dark shades may represent area of higher or lower concentration. 
+iv. **Data Density:** Color can be used to indicate density of data points in specific area. Lighter or dark shades may represent area of higher or lower concentration.
 
 v. **Time Series:** Different color can be used in line chart or area chart to represent converging and diverting time fluctuation in dataset that can help user to track trend and fluctuation.
 
