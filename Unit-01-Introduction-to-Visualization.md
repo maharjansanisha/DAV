@@ -50,7 +50,7 @@ Sampling is used to select a representative subset of data for analysis. This he
 
 ## Visual Encoding
 
-**Visual encoding** refers to process of mapping data attributes to visual eccentrics in order to create meaningful information and graphical representation. It involves choosing appropriate visual actor like position, color, size shape and texture to represent different aspect of data. It helps to effectively communicate data insights and patterns to the user. Effective visual encoding ensures that user can quickly and accurately understand the patterns, trend and relationship present in the data. Some common visual properties used in visual encodings are:
+**Visual encoding** refers to process of mapping data attributes to visual eccentrics in order to create meaningful information and graphical representation. It involves choosing appropriate visual actor like position, color, size, shape and texture to represent different aspect of data. It helps to effectively communicate data insights and patterns to the user. Effective visual encoding ensures that user can quickly and accurately understand the patterns, trend and relationship present in the data. Some common visual properties used in visual encodings are:
 
 i. **Position:** The position of axis in different visual eccentrics like scatter plot, bar graph etc. can represent two different variables.
 
@@ -72,7 +72,7 @@ Color is a tool to convey information, highlight patterns and engage viewers. In
 
 i. **Categorical Data:** Color is used to differentiate groups in dataset. For example, color can be used to represent different product categories, population categories in bar graph, comparison of two or more data in scatter plot, distinguish countries on a map.
 
-ii. **Sequential Data:** Color can be used to represent ordered data such as values that increase or decrease progressively. For example, different color used in heatmaps to show similarities and dissimilarities between variables, color in line chart to distinguish two or more variable.
+ii. **Sequential Data:** Color can be used to represent ordered data such as values that increase or decrease progressively. For example, different color used in heatmap to show similarities and dissimilarities between variables, color in line chart to distinguish two or more variable.
 
 iii. **Diverging Data:** Color can be used to point the data that are above or below a central value. It helps to show distinct midpoint such as comparing positive and negative changes.
 
@@ -92,13 +92,13 @@ vii. **Error:** color can be used to represent error interval, range on data poi
 
 • Maintain color consistency across related visualization to make easier for comparison
 
-## Perceptual issues
+## Perceptual Issues
 
 Perceptual issues are those that can lead to misinterpretation of data due to perception of human brain i.e., it refers to challenges and considerations related to how human perceive and interpret visual representation of data. These issues should be addressed as effective data visualization depends on how well it conveys information to the viewer. Addressing perceptual issues in data visualization requires a deep understanding of both the data being presented and the target audience. It is important to continually test and refine visualization to ensure that they effectively convey the information and minimize misinterpretation. Some of the common perceptual issues are:
 
 - **Color Choice:** The human eye is more sensitive to some color that others so using such similar color and dissimilar color together can make difficult for user to understand the meaning of data. Using inappropriate color can lead to confusion of data for eg. using red color and green color together for danger symbol, choosing a color scale that is not perceptually uniform can also distort the representation of quantitative data.
 
-- **Size and position:** Using size too similar for different situation can make it dificult to see the difference in data values. Distortion in scale such as unequal axis, intervals exaggerated size in chart and graph dan misrepresent the data and lead to inaccurate interpretation. Placing the data points in unexpected or cluttered location can make the information difficult to understand.
+- **Size and position:** Using size too similar for different situation can make it difficult to see the difference in data values. Distortion in scale such as unequal axis, intervals exaggerated size in chart and graph can misrepresent the data and lead to inaccurate interpretation. Placing the data points in unexpected or cluttered location can make the information difficult to understand.
 
 - **Misleading Visualization Types:** Choosing wrong types of visual eccentrics like chart and graphs for data can result in misinterpretation. For example: using pie chart to show time series data, using heat map to represent one dimensional data etc.
 
