@@ -9,19 +9,20 @@ Visual perception refers to the way in which human perceive and interpret visual
 ## Visual Representation of Data
 
 A visual representation of data refers to use of graphical or visualization tool to convey patterns, information, relationship in dataset in easier and simpler form. The main goal of visual representation is to enforce effective communication and analysis of information. The choice of visual representation depends on the type of data, meaning we want to convey the audience familiarity with the data domain.
-Some common types of data visualtion are:
 
-1. Charts and graphs: includes bar chart, line charts, scatter plot, pie chart that are used to display quantitative data to reveal trends and comparison.
+Some common types of data visualization are:
 
-2. Maps: use to represent geographical data using heatmaps, maps and other spatial visualization. It helps to reveal geographic pattern and their relationship
+1. **Charts and Graphs:** Includes bar chart, line charts, scatter plot, pie chart that are used to display quantitative data to reveal trends and comparison.
 
-3. Tree map: use nested rectangle or circular segment to represent hierarchical data and its distribution within categories.
+2. **Maps:** Use to represent geographical data using heatmap, maps and other spatial visualization. It helps to reveal geographic pattern and their relationship.
 
-4. Heatmap: use to represent two-dimensional data by using color to show density of data points and highlight patterns and concentration.
+3. **Tree Map:**Use nested rectangle or circular segment to represent hierarchical data and its distribution within categories.
 
-5. Word clouds: use to display words from a text dataset with the varying size of text to indicate its frequency. It helps to visualize word frequencies and marks the important topic in text analysis.
+4. **Heatmap:** Use to represent two-dimensional data by using color to show density of data points and highlight patterns and concentration.
 
-6. Time series visualization: shows how data change over time and includes charts to visualize chart.
+5. **Word Clouds:** Use to display words from a text dataset with the varying size of text to indicate its frequency. It helps to visualize word frequencies and marks the important topic in text analysis.
+
+6. **Time Series Visualization:** shows how data change over time and includes charts to visualize chart.
 
 ## Data Abstraction
 
