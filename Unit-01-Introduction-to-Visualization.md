@@ -4,7 +4,7 @@ Data analysis is the process of cleaning, processing and changing raw data and e
 
 ## Introduction of Visual Perception
 
-Visual perception refers to the way in which human perceive and interpret visual information represented by wil eccentrics likar charts, graph etc. it refers to how human's visual system process and interpret the surrounding such as color, shapes, shes to extract meaningful information and pattern from data. For effective data visualization, visual perception should take into consideration such that accurate and understandable visualization can be created
+Visual perception refers to the way in which human perceive and interpret visual information represented by visual eccentrics like charts, graph etc. it refers to how human's visual system process and interpret the surrounding such as color, shapes, sizes to extract meaningful information and pattern from data. For effective data visualization, visual perception should take into consideration such that accurate and understandable visualization can be created.
 
 ## Visual Representation of Data
 
